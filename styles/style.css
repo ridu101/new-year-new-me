@@ -1,5 +1,121 @@
-.watch{
-    align-items: center;
-    font-size: 100px;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* banner content style here */
+.banner-content-parent{
+
+}
+.banner-img{
+ width: 1850px;
+}
+.banner-content-text{
+  position: absolute;
+  right: 200px;
+  top: 350px;
+
+ 
+
+}
+/* button style */
+.banner-button{
+  height: 64px;
+  width: 160px;
+  background-color: #F15B22;
+}
+
+/* my parent section */
+.my-fail-section-parent{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+/* my fail section start here */
+.my-plan-section{
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.my-plan-card-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  margin-top: 80px;
+
+}
+
+/* always keep section start here */
+.always-keep-section{
+  /* background-image: ; */
+  background: linear-gradient(90.00deg, rgb(241, 91, 34),rgba(241, 91, 34, 0) 100%), url(../assests/watch.png);
+  width: 1140px;
+  height: 300px;
+  margin-left: 370px;
+  margin-top: 100px;
+ 
+}
+.always-keep-text{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align:left;
+  padding-top: 90px;
+  padding-left: 90px;
+  
+}
+.call-button{
+
+ width: 160px;
+ color:rgb(241, 91, 34);
+ height: 64px;
+}
+
+/* Footer section start here */
+.footer-content-parent{
+  margin-top: 80px;
+  height: 577px;
+  width: 1660;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.footer-future{
+  color: white;
+  margin-top: 120px;
+}
+.footer-Subscribe{
+  color: white;
+}
+.email{
+  width: 325px;
+  height: 54px;
+  padding: 10px auto 10px 50px;
+}
+.footer-button{
+  margin-top: 40px;
+  height: 64px ;
+  width: 170px;
+  color: rgb(241, 91, 34);
+}
+.anh-1{
+  margin-right: 10px;
+}
+.anh-2{
+  margin-right: 10px;
 }
